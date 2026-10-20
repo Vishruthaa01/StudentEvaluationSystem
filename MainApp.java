@@ -141,7 +141,7 @@ public class MainApp {
         System.out.println("\n-- Add Course --");
         String code = readText("Course Code (e.g. 24ITR31)").toUpperCase();
         String title = readText("Title");
-        int credits = readInt("Credits", 1, 6);
+        int credits = readInt("Credits", 0, 6);
         String type = readCourseType();
         int sem = readInt("Semester in which this course is offered", 1, 8);
         dao.addCourse(code, title, credits, type, sem);
@@ -188,8 +188,8 @@ public class MainApp {
         String roll = readText("Roll Number").toUpperCase();
         String code = readText("Course Code").toUpperCase();
         int sem = readInt("Semester", 1, 8);
-        double cia1 = readDouble("CIA Test 1 (0-100)", 0, 100);
-        double cia2 = readDouble("CIA Test 2 (0-100)", 0, 100);
+        double cia1 = readDouble("CIA Test 1 (0-50)", 0, 50);
+        double cia2 = readDouble("CIA Test 2 (0-50)", 0, 50);
         if (dao.enterCIA(roll, code, sem, cia1, cia2)) {
             System.out.println("CIA Test 1 and CIA Test 2 recorded.");
         } else {
@@ -202,7 +202,7 @@ public class MainApp {
         String roll = readText("Roll Number").toUpperCase();
         String code = readText("Course Code").toUpperCase();
         int sem = readInt("Semester", 1, 8);
-        double score = readDouble("Assignment / Quiz / Lab score (0-100)", 0, 100);
+        double score = readDouble("Assignment (0 - 20)/ Quiz (0 - 20)/ Lab score (0-100)", 0, 100);
         if (dao.enterAssignment(roll, code, sem, score)) {
             System.out.println("Assignment / Lab score recorded.");
         } else {
