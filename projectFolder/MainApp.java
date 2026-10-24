@@ -8,7 +8,7 @@ public class MainApp {
     private static final AcademicDAO dao = new AcademicDAO();
 
     public static void main(String[] args) {
-        int choice;
+        int choice; 
         do {
             printMenu();
             choice = readChoice();
