@@ -10,6 +10,7 @@ Download Links:
 Project Folder: [JAVA ASSIGNMENT-VISHRUTHAA V R 25ITR177.pdf](https://github.com/user-attachments/files/34007674/JAVA.ASSIGNMENT-VISHRUTHAA.V.R.25ITR177.pdf)
 Video:
 
+
 Tech Stack and Tools:
 Language: Java (compiled to bytecode, featuring console application logic)
 Database: MySQL (kec_db schema managing students, courses, enrollments, and assessment marks)   
@@ -21,7 +22,7 @@ JDBC (Java Database Connectivity) API: The Java API (java.sql, DriverManager) us
 Code Editor: Visual Studio Code use for development environment. 
 
 Flow Chart:
-<img width="720" height="3292" alt="mermaid-diagram-2026-10-24-194605" src="https://github.com/user-attachments/assets/9b5d25f6-4f47-4162-b282-a6146dba7b37" />
+<img width="1000" height="1500" alt="mermaid-diagram-2026-10-24-194605" src="https://github.com/user-attachments/assets/9b5d25f6-4f47-4162-b282-a6146dba7b37" />
 
 Database Schema:
 Student Table: 
