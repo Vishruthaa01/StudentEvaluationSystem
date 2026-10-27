@@ -8,7 +8,7 @@
 <hr>
 <h3>Download Links:</h3>
 <h4>Project Folder:</h4> [JAVA ASSIGNMENT-VISHRUTHAA V R 25ITR177.pdf](https://github.com/user-attachments/files/34007674/JAVA.ASSIGNMENT-VISHRUTHAA.V.R.25ITR177.pdf)  
-<h4>Video: </h4> 
+<h4>Video: </h4> https://github.com/Vishruthaa01/StudentEvaluationSystem/blob/main/videoFolder/JavaProjectExplanation%20(1)%20(1)%20(1).mp4
 <hr>
 <h3>Tech Stack and Tools:</h3>
 <h4>Language:</h4> Java (compiled to bytecode, featuring console application logic)  
